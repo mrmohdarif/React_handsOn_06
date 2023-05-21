@@ -1,7 +1,9 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(0deg, rgba(213,65,130,1) 31%, rgba(141,214,240,1) 72%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: serif
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar{
+  background-color: rgb(83, 83, 245);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.link{
+  text-decoration: none;
+  color:white;
+  font-size: 38px;
+}
+input{
+ 
+height:60px;
+font-size: 22px;
+width: 400px;
+border-radius: 10px;
+margin-bottom: 30px;
+margin-left: 50px;
+}
+.btnsubmit{
+  padding: 10px;
+ border-radius: 50px;
+ width: 150px;
+ margin-left: 500px;
+ font-size: 22px;
+ 
+}
+.btncancel{
+  padding: 10px;
+  border-radius: 50px;
+  width: 150px;
+  margin-left: 50px;
+  font-size: 22px;
+  
+}
+form{
+
+  
+ width: 1000px;
+ margin: auto;
+ margin-top: 200px; 
+}
+.student_btn{
+  display: flex;
+  font-size: 38px;
+ justify-content: center;
+ justify-content: space-around;
+ margin-top: 20px;
+ margin-bottom: 40px;
+}
+.Table{
+  font-size: 22px;
+  background-color: white;
+  border-radius: 5px;
+   width: 600px;
+  /*height: 400px; */
+  margin: auto;
+}
+
+td{
+  text-align: center;
+ 
+}
+.btn{
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 18px;
 }
